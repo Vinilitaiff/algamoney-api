@@ -1,0 +1,30 @@
+//Criar pessoa
+
+{
+    "nome": "Maria",
+    "endereco": {
+        "numero": "19",
+        "bairro": "Brasil",
+        "cep": "69073184",
+        "cidade": "Manaus",
+        "estado": "Amazonas",
+        "logradouro": "Rua do Abacate"
+    },
+    "ativo": "true"
+}
+
+//Criar Lancamento
+
+ {
+        "descricao": "Bahamas",
+        "dataVencimento": "2017-02-10",
+        "valor": 100.32,
+        "tipo": "DESPESA",
+        "categoria": {
+            "codigo": 2
+        },
+        "pessoa": {
+            "codigo": 2
+            }
+     
+    }
